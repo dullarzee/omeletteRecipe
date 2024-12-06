@@ -1,0 +1,230 @@
+
+.doc{
+    width:365px;
+    height:auto;
+   /* border:5px solid;
+    border-color: black;*/
+}
+
+.body{
+    width:87%;
+    position: relative;
+    left:4%;
+    /*border:1px solid red;*/
+}
+
+.img{
+    width:330px;
+    height:140px;
+    position:relative;
+    left:-2%;
+}
+
+.txt{
+    font-family: young serif;
+    font-weight: 400;
+    font-size:xx-large;
+
+}
+
+.txt2{
+    font-family: outfit;
+    color: hsl(24, 5%, 18%);
+    
+
+}
+
+.div1{
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 7px;
+    position:relative;
+    height:180px
+}
+
+.preparation{
+    font-family: outfit;
+    position:relative;
+    top:10%;
+    left:7%;
+    color:hsl(332, 51%, 32%)
+}
+
+.listheading{
+    font-weight: bold;
+    font-family: outfit;
+}
+
+.listitems{
+    font-family:outfit;
+    font-weight: 300;
+    color:hsl(30, 10%, 34%);
+}
+
+.sectionheading{
+    font-family: young serif;
+    color:hsl(14, 45%, 36%);
+}
+
+.line{
+    color:rgb(235, 228, 228);
+    place-self: center;
+}
+
+.spanA1{
+    color:hsl(30, 10%, 34%);
+    font-family: outfit;
+    position:relative;
+    left:10%
+}
+
+.spanB1{
+    position:relative;
+    left:30%;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+
+}
+
+.spanB2{
+    position:relative;
+    left:34%;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+
+}
+
+.spanB3{
+    position:relative;
+    left:34%;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+}
+
+.spanB4{
+    position:relative;
+    left:34%;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+}
+
+
+
+
+.footer{
+    font-size: 11px; 
+    text-align: center; 
+    font-family:inter;
+}
+
+@media only screen and (min-width:768px){
+    .doc{
+        width: 1200px;
+    }
+
+    .img{
+        width:1100px;
+        height:500px;
+        position:relative;
+        left:-2%;
+        border-radius: 15px;
+
+    }
+
+    .body{
+        width:87%;
+        position: relative;
+        left:15%;
+    }
+
+    .txt{
+        font-family: young serif;
+        font-weight: 400;
+        font-size:50px;
+    }
+
+    .txt2{
+        font-family: outfit;
+        color: hsl(24, 5%, 18%);
+        font-size: large;
+    }
+
+    .div1{
+        background-color: hsl(30, 54%, 90%);
+        border-radius: 7px;
+        position:relative;
+        height:230px
+    }
+    
+    .preparation{
+        font-family: outfit;
+        position:relative;
+        top:10%;
+        left:7%;
+        color:hsl(332, 51%, 32%);
+        font-size:30px;
+    }
+    
+    .listheading{
+        font-weight: bold;
+        font-family: outfit;
+        font-size:large;
+    }
+    
+    .listitems{
+        font-family:outfit;
+        font-weight: 300;
+        color:hsl(30, 10%, 34%);
+        font-size: large;
+    }
+    
+    .sectionheading{
+        font-family: young serif;
+        color:hsl(14, 45%, 36%);
+        font-size:30px;
+    }
+    
+    .line{
+        color:rgb(235, 228, 228);
+        place-self: center;
+        
+    }
+
+    .spanB1{
+    position:relative;
+    left:30%;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+   
+}
+
+    .spanB2{
+        position:relative;
+        left:31.5%;
+        font-weight: 500;
+        color: hsl(14, 45%, 36%);
+        font-family: outfit;
+
+    }
+
+    .spanB3{
+        position:relative;
+        left:30.5%;
+        font-weight: 500;
+        color: hsl(14, 45%, 36%);
+        font-family: outfit;
+    }
+
+    .spanB4{
+        position:relative;
+        left:33%;
+        font-weight: 500;
+        color: hsl(14, 45%, 36%);
+        font-family: outfit;
+    }
+        
+}
